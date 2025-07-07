@@ -8,6 +8,9 @@ Also, system has a model. This model cathes fake faces. Thus, spoofing attacks i
 Used model is improved with machine learning. With YOLO model, about 5000 fake and 5000 real images are trained in Google Colaboratory.
 MySQL used as a database. It has only one table. Because only faces are controlled for login process.
 
+!! Do not forget to set the .flaskenv file up !!
+You keep your secrets (db_connections, app global variables...) in the .flaskenv file.
+
 *** Required Tools *** 
  1 - Vs Code 
  2 - MySQL (You do not need to install it if you use internal database. Like Flask-SQLAlchemy in Flask)
