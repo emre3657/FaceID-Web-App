@@ -143,4 +143,4 @@ The app usually starts at `http://127.0.0.1:5000/`.
 - Add tests and CI
 
 ## License
-MIT
+Apache-2.0 license
